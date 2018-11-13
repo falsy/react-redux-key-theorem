@@ -6,11 +6,11 @@ import Person from './components/Person';
 export default class App extends Component {
   render() {
     return (
-    	<Provider store={store}>
-	      <div>
-	        <Person />
-	      </div>
-	     </Provider>
+      <Provider store={store}>
+        <div>
+          <Person />
+        </div>
+       </Provider>
     );
   }
 }

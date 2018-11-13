@@ -11,8 +11,8 @@ class Arm extends Component {
   render() {
     return (
       <div id={'arm'}>
-      	팔
-      	<Finger />
+        팔
+        <Finger />
       </div>
     );
   }

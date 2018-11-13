@@ -11,7 +11,7 @@ class Finger extends Component {
   render() {
     return (
       <div id={'finger'}>
-      	{this.props.finger.number}번째 손가락
+        {this.props.finger.number}번째 손가락
       </div>
     );
   }
